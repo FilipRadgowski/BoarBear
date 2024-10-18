@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoarBear</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+    <div id="statsdiv">
+    <div id="scorediv" class="centerdiv">
+    <h5>High Score:</h5>
+    <h4 id="highscore">0</h4>
+    </div>
+    <div id="livesdiv" class="centerdiv">
+        <h5>Lives:</h5>
+        <h4 id="lives">3</h4>
+    </div>
+    </div>
+
+    <div class="centerdiv">
+    <button id="start" class="buttonnn" onclick="startInterval()">Start</button>
+    </div>
+
+    <h1 id="timer" class="centerdiv">0</h1>
+
+    <div id="buttons" class="centerdiv">
+    <br>
+    <button id="silly" class="buttonnn">Boar🐗</button>
+    <button id="sillybilly" class="buttonnn">🐗BoarBear🐻</button>
+    <button id="billy" class="buttonnn">Bear🐻</button>
+    </div>
+    
+    <br>
+
+    <!--<div id="scoreTablediv">
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>-->
+    
+    <!--
+    <div id="output" class="centerdiv"></div>
+    -->
+
+    <p id="rules" class="centerdiv">Rules:
+    <br>Press Boar when the numer displayed is divisible by 2 or one that has a 2.
+    <br>Press Bear when the numer displayed is divisible by 3 or one that has a 3.
+    <br>Press BoarBear when the numer displayed is divisible by both 2 and 3 or one that has both 2 and 3.
+    <br>You have 3 lives.
+    <br>You lose a life if you miss a number or press a wrong button.
+    <br>The game gets progressively harder and ends once you're out of lives.
+    <br>Good luck, have fun!
+    </p>
+
+    <footer class="centerdiv">
+        <img src="./boar-head.gif"></img>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
